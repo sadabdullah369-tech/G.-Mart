@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G Mart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f0fdfa; /* mint green */
+    }
+    header {
+      background: #38bdf8; /* sky blue */
+      color: #ffffff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #0ea5e9; /* sky blue darker */
+      padding: 0.75rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      border: 1px solid #166534;
+      border-radius: 8px;
+      padding: 1.5rem;
+      background: #dcfce7; /* mint green */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .cta {
+      background: #eafff5; /* fresh green background */
+      text-align: center;
+      padding: 3rem 1.5rem;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #38bdf8; /* light blue for WhatsApp support */
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #198754;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #0b5ed7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    footer {
+      background: #0ea5e9;
+      color: #ffffff;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>G Mart</h1>
+    <p>Your trusted local shop for daily essentials</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      G Mart is your neighborhood shop offering quality products at affordable prices. We focus on freshness, fair pricing, and friendly service to make your everyday shopping easy and reliable.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Groceries & Daily Essentials</h3>
+        <p>Wide range of groceries and daily-use items at the best prices.</p>
+      </div>
+      <div class="card">
+        <h3>Fresh Snacks & Beverages</h3>
+        <p>Tasty snacks, cold drinks, and refreshments for all ages.</p>
+      </div>
+      <div class="card">
+        <h3>Household Products</h3>
+        <p>Cleaning supplies and household essentials you can trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Popular Products</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Rice, Atta & Pulses</h3>
+        <p>High-quality staples for your daily meals.</p>
+      </div>
+      <div class="card">
+        <h3>Snacks & Drinks</h3>
+        <p>Biscuits, chips, cold drinks, and juices.</p>
+      </div>
+      <div class="card">
+        <h3>Home Care</h3>
+        <p>Detergents, cleaners, and hygiene products.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Visit or Order from G Mart</h2>
+    <p>📍 Your Shop Address Here</p>
+    <p>📞 +91-XXXXXXXXXX | ✉️ gmart@email.com</p>
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Order on WhatsApp</a>
+    <br/><br/>
+    <iframe src="https://www.google.com/maps?q=India&output=embed" width="100%" height="300" style="border:0;" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 G Mart. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
